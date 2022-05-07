@@ -1,1 +1,28 @@
-<p>create-topic works!</p>
+
+
+<div class="col-md-6 offset-md-3">
+    <h3> Create Employee </h3>
+    <form (ngSubmit) = "onSubmit()">
+
+        <div class="form-group">
+            <label> id_topic </label>
+            <input type="text" class ="form-control" id = "id_topic"
+                   [(ngModel)] = "topic.id_topic" name = "id_topic">
+        </div>
+
+        <div class="form-group">
+            <label> name_topic</label>
+            <input type="text" class ="form-control" id = "name_topic"
+                   [(ngModel)] = "topic.name_topic" name = "name_topic">
+        </div>
+
+        <div class="form-group">
+            <label> content_topic</label>
+            <input type="text" class ="form-control" id = "content_topic"
+                   [(ngModel)] = "topic.content_topic" name = "content_topic">
+        </div>
+
+        <button class = "btn btn-success" type ="submit">Submit</button>
+
+    </form>
+</div>
