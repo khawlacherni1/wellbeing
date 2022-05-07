@@ -7,7 +7,7 @@ export const navbarData = [
   {
     routeLink :'create-topic',
     icon : 'fal fa-map',
-    label : 'topic'
+    label : 'ADD POST'
   },
   /*{
     routeLink :'crea',
